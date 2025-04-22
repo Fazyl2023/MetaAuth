@@ -11,7 +11,6 @@
 2) insert your extension ID into the 'identifier' variable;
 3) specify the path to the extension in the 'path' variable (There is an example).
 4) Run the code
-
-# In the config folder.all passwords and key phrases of the wallet will be stored in json
+In the config folder.all passwords and key phrases of the wallet will be stored in json
 
 # MetaAuth
