@@ -1,3 +1,4 @@
+from sys import version
 import time
 import os
 from fake_useragent import FakeUserAgent
@@ -8,8 +9,10 @@ import json
 from password_generator import PasswordGenerator
 
 #Веедите сой идентификатор
-ident = 'your_ident' 
-path = f'/Users/fazyl/Library/Application Support/Google/Chrome/Default/Extensions/{ident}/12.15.2_0/'
+ident = 'your identificator' 
+your_name = 'your name'
+version = '12.16.1_0'
+path = f'/Users/{your_name}/Library/Application Support/Google/Chrome/Default/Extensions/{ident}/{version}/'
 s_phrase = {}
 pwo = PasswordGenerator()
 passwd = pwo.generate()
